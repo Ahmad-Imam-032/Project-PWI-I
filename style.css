@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Ro Hon MinSink';
+    src: url('Ro Hon MinSink Std U.otf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('open-sans-v17-latin-regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Novecento Sans Wide';
+    src: url('NovecentoSansWide-Normal.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Edo SZ';
+    src: url('edosz.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+header {
+    font-family: 'Ro Hon MinSink' , sans-serif;
+    background-color: rgba(212, 47, 33, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    height: 96px;
+    margin: 0 15px;
+}
+main {
+    display: flex;
+    flex: 1;
+}
+nav {
+    font-family: 'Novecento Sans Wide' , sans-serif;
+    width: 200px;
+    background-color: rgba(32, 32, 32, 0.75);
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+section {
+    font-family: 'Open Sans' , sans-serif;
+    flex: 1;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+aside {
+    font-family: 'Edo SZ' , sans-serif;
+    width: 250px;
+    background-color: rgba(32, 32, 32, 0.75);
+    padding: 15px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+/*
+aside {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+*/
+
+footer {
+    background-color: rgba(51, 51, 51, 0.85);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: rgba(212, 47, 33, 0.75);
+}
+aside img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: 20px 0;
+}
